@@ -47,6 +47,20 @@ const Footer: React.FC = () => {
               />
             </a>
           </li>
+          <li>
+            <a 
+              href="https://github.com/BlockDevs-HQ"
+              className="text-xl hover:text-gray-400"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <img 
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/256px-GitHub_Invertocat_Logo.svg.png?20230417032619" 
+                  alt="Github" 
+                  className="inline w-7 h-7 bg-slate-50 rounded-full"
+                />
+              </a>
+          </li>
         </ul>
 
         <p className="text-base">

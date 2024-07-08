@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar/Navbar";
+import Favicon from "../../public/favicon.ico"
 
 const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "BlockDevs",
   description: "Get started with your Blockchain Journey with Us!",
+  icons: [{ rel: 'icon', url: Favicon.src }],
 };
 
 export default function RootLayout({
